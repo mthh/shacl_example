@@ -1,0 +1,23 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.com/ns#> .
+
+ex:AliceInWonderland
+  a ex:Book ;
+  ex:title "Alice in Wonderland" ;
+  ex:isbn "9780721409672" ;
+  ex:author "Carol Lewis".
+
+ex:TheNakedLunch
+  a ex:Book ;
+  ex:title "The naked lunch" ;
+  ex:title "Le festin nu"@fr ;
+  ex:isbn "978-3-548-02843-9" ;
+  ex:author "William S. Burroughs".
+
+ex:MyBook
+    a ex:Book;
+    ex:title "Mon super livre" ;
+    ex:title "Ma vie, mon oeuvre" ;
+    ex:datePublished "Not published yet !" .
